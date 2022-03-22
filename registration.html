@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <link rel="stylesheet" href="css/bootstrap.csss">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Complete Responsive Food / Restaurant Website Design Tutorial</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+
+   <!-- custom css file link  -->
+   <link rel="stylesheet" href="css/order.css">
+   
+</head>
+<body>
+  <section class="order" id="order">
+
+    <div class="heading">
+       <span>order now<i class="fas fa-coffee"></span></i>
+       <h3>fast home delivery</h3>
+    </div>
+
+   <!--style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #eee;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      /* Add padding to containers */
+      .container {
+        padding: 16px;
+        background-color: white;
+      }
+      
+      /* Full-width input fields */
+      input[type=text], input[type=FirstName] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        display: inline-block;
+        border: none;
+        background: #f1f1f1;
+      }
+      
+      input[type=text]:focus, input[type=LastName]:focus {
+        
+        background-color: #ddd;
+        outline: none;
+      }
+      
+      /* Overwrite default styles of hr */
+      hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+      }
+      
+      /* Set a style for the submit button */
+      .registerbtn {
+        background-color: #04AA6D;
+        color: white;
+        padding: 16px 20px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 10%;
+        opacity: 0.9;
+      }
+      
+      .registerbtn:hover {
+        opacity: 1;
+      }
+      
+      
+      </style-->
+      </head>
+      <body>
+      
+         <form method="post" action="connect.php">
+        <!--div class="container">
+          
+          <hr>
+      
+          <label for="FirstName"><b>FirstName</b></label>
+          <input type="text"  name="FirstName" id="FirstName" required>
+      
+          <label for="LastName"><b>LastName</b></label>
+          <input type="text" name="LastName" id="LastName" required>
+      
+          
+          <hr>
+         
+      
+          <button type="submit" class="registerbtn">Register</button>
+        </div-->
+
+        <form action="">
+          <div class="box-container">
+             <div class="box">
+                <div class="inputBox">
+                   <span>FullName</span>
+                   <input type="text" name="FullName" id="FullName" required>
+                </div>
+                <div class="inputBox">
+                   <span>CoffeeName</span>
+                   <input type="text" name="CoffeeName" id="CoffeeName" required>
+                </div>
+                <div class="inputBox">
+                  <span>Addresss</span>
+                  <textarea type="text" name="Addresss" id="Addresss" cols="30" rows="10" required></textarea>
+               </div>
+             </div>
+             
+
+             <div class="box">
+              
+             <div class="inputBox">
+              <span>Orderdetails</span>
+              <input type="text" name="Orderdetails" id="Orderdeatails" required>
+             </div>
+             <div class="inputBox">
+              <span>Whenwant</span>
+              <input type="datetime-local" name="Whenwant" id="Whenwant" required>
+           </div>
+            <div class="inputBox">
+            <span>our address</span>
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60307.59083109428!2d72.840725!3d19.141651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1642222128240!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+           </div>
+        </div>
+         
+     
+          <input type="submit" value="order now" class="btn">
+     
+         </form>
+        
+        
+      </form>
+    </section>    
+
+
+
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery .gallery-container'));
+</script>
+
+</body>
+</html>
